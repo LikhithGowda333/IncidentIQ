@@ -4,7 +4,7 @@ import {
   ServiceMapData, OverviewStats, EvidenceRecord
 } from '../types';
 
-const API_BASE = '/api';
+const API_BASE = 'https://incidentiq-ce2j.onrender.com/api';
 
 function getAuthHeader(): Record<string, string> {
   const token = localStorage.getItem('incidentiq_token');
