@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IncidentIQ — AI-Powered Incident Investigation & Root Cause Analysis Platform
 
 > **Project Theme:** *“The incident is resolved; nobody knows why.”*
@@ -233,3 +234,7 @@ IncidentIQ/
 - **Input Sanitization:** Uploaded filenames are sanitized with path-traversal prevention.
 - **ZIP Bomb Mitigations:** Decompression size is capped at 100MB; suspicious compression ratios are blocked.
 - **Zero API Keys Required:** All algorithms are executed on-device using deterministic, reproducible rule sets.
+=======
+# IncidentIQ
+IncidentIQ is an AI-powered incident investigation platform that analyzes logs, metrics, and traces to build incident timelines, rank potential root causes, and provide evidence-backed explanations with recommended next steps. Built with Python, FastAPI, and Streamlit for the HACKMITTEN 3.0 AI Ops Challenge.
+>>>>>>> 
