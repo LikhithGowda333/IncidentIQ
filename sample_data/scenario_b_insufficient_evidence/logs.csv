@@ -1,0 +1,5 @@
+# SYNTHETIC DEMONSTRATION DATA - IncidentIQ Scenario B (Insufficient Telemetry)
+timestamp,service,level,message
+2026-10-28T18:00:00Z,edge-proxy,INFO,TLS handshake completed successfully client=192.168.1.10
+2026-10-28T18:00:15Z,edge-proxy,INFO,HTTP 200 GET /healthz 2ms
+2026-10-28T18:00:45Z,edge-proxy,INFO,Connection gracefully closed by remote peer

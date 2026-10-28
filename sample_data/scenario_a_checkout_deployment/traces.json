@@ -1,0 +1,57 @@
+[
+  {
+    "_label": "SYNTHETIC DEMO TRACE",
+    "trace_id": "tr-9015",
+    "span_id": "sp-101",
+    "parent_span_id": null,
+    "service": "api-gateway",
+    "operation": "POST /api/checkout",
+    "start_time": "2026-10-28T14:16:15Z",
+    "duration_ms": 4200.0,
+    "status": "504"
+  },
+  {
+    "_label": "SYNTHETIC DEMO TRACE",
+    "trace_id": "tr-9015",
+    "span_id": "sp-102",
+    "parent_span_id": "sp-101",
+    "service": "checkout-service",
+    "operation": "processOrder",
+    "start_time": "2026-10-28T14:16:15Z",
+    "duration_ms": 4150.0,
+    "status": "error"
+  },
+  {
+    "_label": "SYNTHETIC DEMO TRACE",
+    "trace_id": "tr-9015",
+    "span_id": "sp-103",
+    "parent_span_id": "sp-102",
+    "service": "checkout-service",
+    "operation": "db.acquireConnection",
+    "start_time": "2026-10-28T14:16:15Z",
+    "duration_ms": 2500.0,
+    "status": "timeout"
+  },
+  {
+    "_label": "SYNTHETIC DEMO TRACE",
+    "trace_id": "tr-9016",
+    "span_id": "sp-201",
+    "parent_span_id": null,
+    "service": "api-gateway",
+    "operation": "POST /api/checkout",
+    "start_time": "2026-10-28T14:16:40Z",
+    "duration_ms": 3100.0,
+    "status": "504"
+  },
+  {
+    "_label": "SYNTHETIC DEMO TRACE",
+    "trace_id": "tr-9016",
+    "span_id": "sp-202",
+    "parent_span_id": "sp-201",
+    "service": "checkout-service",
+    "operation": "processOrder",
+    "start_time": "2026-10-28T14:16:40Z",
+    "duration_ms": 3050.0,
+    "status": "error"
+  }
+]

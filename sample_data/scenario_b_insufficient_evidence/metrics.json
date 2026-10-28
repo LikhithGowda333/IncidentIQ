@@ -1,0 +1,4 @@
+[
+  {"timestamp": "2026-10-28T18:00:00Z", "service": "edge-proxy", "metric_name": "cpu_utilization", "value": 12.0, "unit": "percent", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T18:01:00Z", "service": "edge-proxy", "metric_name": "cpu_utilization", "value": 14.5, "unit": "percent", "_label": "SYNTHETIC DEMO"}
+]

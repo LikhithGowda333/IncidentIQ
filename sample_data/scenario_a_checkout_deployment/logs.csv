@@ -1,0 +1,12 @@
+# SYNTHETIC DEMONSTRATION DATA - IncidentIQ Demo Scenario A
+timestamp,service,level,message,trace_id,request_id
+2026-10-28T14:14:30Z,checkout-service,INFO,Service v2.4.0 healthy handling orders normally,tr-9011,req-101
+2026-10-28T14:15:10Z,checkout-service,INFO,Starting service v2.4.1 container instance ip-10-0-12-44,tr-9012,req-102
+2026-10-28T14:15:45Z,checkout-service,INFO,Warmup complete, traffic routed to v2.4.1,tr-9013,req-103
+2026-10-28T14:16:10Z,checkout-service,ERROR,Database connection pool exhausted: could not acquire slot within 2500ms timeout,tr-9014,req-104
+2026-10-28T14:16:15Z,checkout-service,ERROR,Order processing failed: pool exhausted active_conns=100 max_conns=100,tr-9015,req-105
+2026-10-28T14:16:22Z,api-gateway,ERROR,Upstream checkout-service returned HTTP 504 Gateway Timeout on POST /api/checkout,tr-9015,req-105
+2026-10-28T14:16:40Z,checkout-service,CRITICAL,Deadlock detected during batch payment reservation checkout txn,tr-9016,req-106
+2026-10-28T14:17:00Z,payment-gateway,WARN,Client checkout-service dropped connection prematurely before ACK,tr-9017,req-107
+2026-10-28T14:17:30Z,checkout-service,ERROR,Database connection acquisition timeout: waiting queue depth=48,tr-9018,req-108
+2026-10-28T14:18:00Z,api-gateway,ERROR,504 Gateway Timeout rate exceeded 45% threshold for checkout-service,tr-9019,req-109

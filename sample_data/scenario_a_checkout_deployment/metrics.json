@@ -1,0 +1,15 @@
+[
+  {"timestamp": "2026-10-28T14:14:00Z", "service": "checkout-service", "metric_name": "cpu_utilization", "value": 22.4, "unit": "percent", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:15:00Z", "service": "checkout-service", "metric_name": "cpu_utilization", "value": 31.8, "unit": "percent", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:16:00Z", "service": "checkout-service", "metric_name": "cpu_utilization", "value": 89.6, "unit": "percent", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:17:00Z", "service": "checkout-service", "metric_name": "cpu_utilization", "value": 94.2, "unit": "percent", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:18:00Z", "service": "checkout-service", "metric_name": "cpu_utilization", "value": 91.5, "unit": "percent", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:14:00Z", "service": "checkout-service", "metric_name": "latency_p95_ms", "value": 140.0, "unit": "ms", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:15:00Z", "service": "checkout-service", "metric_name": "latency_p95_ms", "value": 185.0, "unit": "ms", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:16:00Z", "service": "checkout-service", "metric_name": "latency_p95_ms", "value": 3850.0, "unit": "ms", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:17:00Z", "service": "checkout-service", "metric_name": "latency_p95_ms", "value": 4600.0, "unit": "ms", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:18:00Z", "service": "checkout-service", "metric_name": "latency_p95_ms", "value": 4200.0, "unit": "ms", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:14:00Z", "service": "database", "metric_name": "cpu_utilization", "value": 14.5, "unit": "percent", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:16:00Z", "service": "database", "metric_name": "cpu_utilization", "value": 16.2, "unit": "percent", "_label": "SYNTHETIC DEMO"},
+  {"timestamp": "2026-10-28T14:18:00Z", "service": "database", "metric_name": "cpu_utilization", "value": 15.0, "unit": "percent", "_label": "SYNTHETIC DEMO"}
+]

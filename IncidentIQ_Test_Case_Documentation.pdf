@@ -1,0 +1,2027 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R] /Count 9 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 10819 >>
+stream
+0.060 0.090 0.160 rg
+36.00 667.00 540.00 85.00 re f
+0.020 0.710 0.830 RG
+3.00 w
+36.00 667.00 m 576.00 667.00 l S
+1.000 1.000 1.000 rg
+BT /F2 17.0 Tf 52.00 724.00 Td (IncidentIQ  --  Platform Test Case Documentation) Tj ET
+0.600 0.800 0.950 rg
+BT /F1 11.0 Tf 52.00 704.00 Td (Comprehensive Quality Assurance & Verification Specification) Tj ET
+0.700 0.750 0.850 rg
+BT /F1 8.5 Tf 52.00 684.00 Td (Standardized Test Suite: Positive, Negative, Boundary, Validation, and Security Test Cases) Tj ET
+0.970 0.980 1.000 rg
+0.800 0.850 0.920 RG
+0.80 w
+36.00 587.00 540.00 60.00 re B
+0.250 0.350 0.450 rg
+BT /F2 8.5 Tf 50.00 629.00 Td (Document Ref:) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 131.00 629.00 Td (DOC-QA-2026-IIQ-01) Tj ET
+0.250 0.350 0.450 rg
+BT /F2 8.5 Tf 321.00 629.00 Td (Execution Date:) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 411.00 629.00 Td (October 2026) Tj ET
+0.250 0.350 0.450 rg
+BT /F2 8.5 Tf 50.00 613.00 Td (Project:) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 131.00 613.00 Td (IncidentIQ \(AI Incident Investigation\)) Tj ET
+0.250 0.350 0.450 rg
+BT /F2 8.5 Tf 321.00 613.00 Td (Test Framework:) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 411.00 613.00 Td (Pytest 9.2 + Vitest E2E) Tj ET
+0.250 0.350 0.450 rg
+BT /F2 8.5 Tf 50.00 597.00 Td (Environment:) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 131.00 597.00 Td (Windows 10/11 x64 / Python 3.13 / Node 20) Tj ET
+0.250 0.350 0.450 rg
+BT /F2 8.5 Tf 321.00 597.00 Td (Total Test Cases:) Tj ET
+0.060 0.550 0.350 rg
+BT /F2 8.5 Tf 411.00 597.00 Td (38 Verified \(100% Pass\)) Tj ET
+0.080 0.150 0.280 rg
+BT /F2 12.0 Tf 36.00 572.00 Td (1. Executive Summary & Verification Scope) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8.5 Tf 36.00 558.00 Td (This formal Test Case Specification defines the rigorous quality assurance verification for IncidentIQ.) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8.5 Tf 36.00 546.00 Td (IncidentIQ is a production-grade incident investigation platform designed to ingest multi-modal) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8.5 Tf 36.00 534.00 Td (observability telemetry \(logs, metrics, traces, deployments, service dependencies\), compute bounded) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8.5 Tf 36.00 522.00 Td (heuristic causality scores, and isolate root causes with 100% source provenance citations. Every) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8.5 Tf 36.00 510.00 Td (functional module across the frontend React SPA and FastAPI backend has been evaluated against positive,) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8.5 Tf 36.00 498.00 Td (negative, boundary, validation, and security constraints.) Tj ET
+0.080 0.150 0.280 rg
+BT /F2 12.0 Tf 36.00 480.00 Td (2. Test Execution & Coverage Metrics) Tj ET
+0.120 0.200 0.320 rg
+36.00 450.00 540.00 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.0 Tf 46.00 454.00 Td (Module / Subsystem) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.0 Tf 256.00 454.00 Td (Focus & Key Constraints) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.0 Tf 446.00 454.00 Td (Tests) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.0 Tf 491.00 454.00 Td (Status) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.0 Tf 536.00 454.00 Td (Rate) Tj ET
+0.980 0.980 1.000 rg
+36.00 435.00 540.00 15.00 re f
+0.850 0.880 0.920 RG
+0.50 w
+36.00 435.00 m 576.00 435.00 l S
+0.100 0.200 0.300 rg
+BT /F2 7.5 Tf 44.00 439.00 Td (MOD-1: Authentication & Access Control) Tj ET
+0.300 0.350 0.400 rg
+BT /F1 7.5 Tf 256.00 439.00 Td (Bcrypt security, JWT sessions, form validation, 1-click demo) Tj ET
+0.200 0.200 0.200 rg
+BT /F1 7.5 Tf 454.00 439.00 Td (8) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 491.00 439.00 Td (8 PASS) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 538.00 439.00 Td (100%) Tj ET
+0.940 0.950 0.970 rg
+36.00 420.00 540.00 15.00 re f
+0.850 0.880 0.920 RG
+0.50 w
+36.00 420.00 m 576.00 420.00 l S
+0.100 0.200 0.300 rg
+BT /F2 7.5 Tf 44.00 424.00 Td (MOD-2: Incident Creation & Metadata) Tj ET
+0.300 0.350 0.400 rg
+BT /F1 7.5 Tf 256.00 424.00 Td (Step 1 wizard, title boundaries, severity enum, unknown time) Tj ET
+0.200 0.200 0.200 rg
+BT /F1 7.5 Tf 454.00 424.00 Td (5) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 491.00 424.00 Td (5 PASS) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 538.00 424.00 Td (100%) Tj ET
+0.980 0.980 1.000 rg
+36.00 405.00 540.00 15.00 re f
+0.850 0.880 0.920 RG
+0.50 w
+36.00 405.00 m 576.00 405.00 l S
+0.100 0.200 0.300 rg
+BT /F2 7.5 Tf 44.00 409.00 Td (MOD-3: Telemetry Ingestion & File Security) Tj ET
+0.300 0.350 0.400 rg
+BT /F1 7.5 Tf 256.00 409.00 Td (CSV/JSON/LOG/ZIP parsing, 50MB limit, Zip-Slip & bomb guards) Tj ET
+0.200 0.200 0.200 rg
+BT /F1 7.5 Tf 454.00 409.00 Td (8) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 491.00 409.00 Td (8 PASS) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 538.00 409.00 Td (100%) Tj ET
+0.940 0.950 0.970 rg
+36.00 390.00 540.00 15.00 re f
+0.850 0.880 0.920 RG
+0.50 w
+36.00 390.00 m 576.00 390.00 l S
+0.100 0.200 0.300 rg
+BT /F2 7.5 Tf 44.00 394.00 Td (MOD-4: Schema Normalization & Provenance) Tj ET
+0.300 0.350 0.400 rg
+BT /F1 7.5 Tf 256.00 394.00 Td (Column mapping, 1-based row citations, UTC normalization) Tj ET
+0.200 0.200 0.200 rg
+BT /F1 7.5 Tf 454.00 394.00 Td (5) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 491.00 394.00 Td (5 PASS) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 538.00 394.00 Td (100%) Tj ET
+0.980 0.980 1.000 rg
+36.00 375.00 540.00 15.00 re f
+0.850 0.880 0.920 RG
+0.50 w
+36.00 375.00 m 576.00 375.00 l S
+0.100 0.200 0.300 rg
+BT /F2 7.5 Tf 44.00 379.00 Td (MOD-5: Pre-Flight Validation Checks) Tj ET
+0.300 0.350 0.400 rg
+BT /F1 7.5 Tf 256.00 379.00 Td (Data coverage health, missing telemetry warnings, empty guards) Tj ET
+0.200 0.200 0.200 rg
+BT /F1 7.5 Tf 454.00 379.00 Td (3) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 491.00 379.00 Td (3 PASS) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 538.00 379.00 Td (100%) Tj ET
+0.940 0.950 0.970 rg
+36.00 360.00 540.00 15.00 re f
+0.850 0.880 0.920 RG
+0.50 w
+36.00 360.00 m 576.00 360.00 l S
+0.100 0.200 0.300 rg
+BT /F2 7.5 Tf 44.00 364.00 Td (MOD-6: Heuristic RCA & Abstention Engine) Tj ET
+0.300 0.350 0.400 rg
+BT /F1 7.5 Tf 256.00 364.00 Td (Scenario A-B, causality formula, contradictions, abstention) Tj ET
+0.200 0.200 0.200 rg
+BT /F1 7.5 Tf 454.00 364.00 Td (7) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 491.00 364.00 Td (7 PASS) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 538.00 364.00 Td (100%) Tj ET
+0.980 0.980 1.000 rg
+36.00 345.00 540.00 15.00 re f
+0.850 0.880 0.920 RG
+0.50 w
+36.00 345.00 m 576.00 345.00 l S
+0.100 0.200 0.300 rg
+BT /F2 7.5 Tf 44.00 349.00 Td (MOD-7: Visualization, Export & Multi-Tenant) Tj ET
+0.300 0.350 0.400 rg
+BT /F1 7.5 Tf 256.00 349.00 Td (Timeline, service map, JSON/CSV reports, tenant isolation) Tj ET
+0.200 0.200 0.200 rg
+BT /F1 7.5 Tf 454.00 349.00 Td (4) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 491.00 349.00 Td (4 PASS) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 7.5 Tf 538.00 349.00 Td (100%) Tj ET
+0.880 0.920 0.980 rg
+36.00 329.00 540.00 16.00 re f
+0.080 0.150 0.300 rg
+BT /F2 8.0 Tf 44.00 334.00 Td (TOTAL TEST SUITE EXECUTION SUMMARY) Tj ET
+0.080 0.150 0.300 rg
+BT /F2 8.0 Tf 450.00 334.00 Td (38) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 8.0 Tf 488.00 334.00 Td (38 PASS) Tj ET
+0.050 0.550 0.300 rg
+BT /F2 8.0 Tf 536.00 334.00 Td (100%) Tj ET
+0.120 0.180 0.280 rg
+36.00 295.00 540.00 24.00 re f
+0.020 0.710 0.830 RG
+2.00 w
+36.00 295.00 m 576.00 295.00 l S
+1.000 1.000 1.000 rg
+BT /F2 9.5 Tf 46.00 303.00 Td (MODULE 1: USER AUTHENTICATION & SESSION SECURITY) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.0 Tf 38.00 287.00 Td (Validates user login, registration, password hashing \(bcrypt\), token validation \(JWT\), and form field guards.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 174.00 540.00 99.00 re B
+0.930 0.950 0.980 rg
+36.00 255.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 255.00 m 576.00 255.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 260.00 Td (TC-AUTH-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 260.00 Td (|  User Login with Valid Demo Account) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 260.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 258.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 261.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 245.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 245.00 Td (POST /api/auth/login with JSON body: {email: 'demo@incidentiq.local', password: 'Demo1234!'}) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 234.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 234.00 Td (HTTP 200 OK, returns signed Bearer JWT token and user profile object \(id, full_name, email\).) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 223.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 223.00 Td (HTTP 200 OK returned; JWT token stored in localStorage and user redirected to Dashboard.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 212.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 212.00 Td (Ensures legitimate operations engineers can successfully access the platform and initiate) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 202.00 Td (investigation workflows.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 54.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 146.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 146.00 m 576.00 146.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 151.00 Td (TC-AUTH-002) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 151.00 Td (|  User Login with Invalid Password) Tj ET
+0.800 0.200 0.200 rg
+BT /F2 7.5 Tf 446.00 151.00 Td ([NEGATIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 149.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 152.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 136.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 136.00 Td (POST /api/auth/login with email 'demo@incidentiq.local' and incorrect password) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 126.00 Td ('WrongPassword99!') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 115.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 115.00 Td (HTTP 401 Unauthorized with detail message 'Incorrect email or password'. No token issued.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 104.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 104.00 Td (HTTP 401 Unauthorized received with error banner displayed on the login interface.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 93.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 93.00 Td (Protects platform telemetry and investigative post-mortems from unauthorized credential) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 83.00 Td (brute-forcing.) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 1 of 9) Tj ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 8795 >>
+stream
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 631.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 734.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 734.00 m 576.00 734.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 739.00 Td (TC-AUTH-003) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 739.00 Td (|  New User Registration with Valid Data) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 739.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 737.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 740.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 724.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 724.00 Td (POST /api/auth/register with full_name: 'Site Reliability Engineer', email:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 714.00 Td ('sre.lead@org.com', password: 'SafePassword2026!') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 703.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 703.00 Td (HTTP 201 Created, user account inserted into SQLite database with salted bcrypt hash; active) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 693.00 Td (session token returned.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 682.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 682.00 Td (HTTP 201 Created; password hashed using 10 bcrypt rounds; new account immediately usable.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 671.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 671.00 Td (Enables new team members to self-onboard securely without administrative database) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 661.00 Td (intervention.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 511.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 603.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 603.00 m 576.00 603.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 608.00 Td (TC-AUTH-004) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 608.00 Td (|  Duplicate Email Registration Prevention) Tj ET
+0.800 0.200 0.200 rg
+BT /F2 7.5 Tf 446.00 608.00 Td ([NEGATIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 606.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 609.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 593.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 593.00 Td (POST /api/auth/register with an already registered email address \('demo@incidentiq.local'\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 582.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 582.00 Td (HTTP 400 Bad Request with detail 'Email address is already registered.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 571.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 571.00 Td (HTTP 400 Bad Request returned; database unique constraint preserved with no duplicate record) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 561.00 Td (created.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 550.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 550.00 Td (Enforces strict identity uniqueness across investigators and prevents account hijacking) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 540.00 Td (through collisions.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 380.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 483.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 483.00 m 576.00 483.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 488.00 Td (TC-AUTH-005) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 488.00 Td (|  Blank Input Field Validation on Auth Forms) Tj ET
+0.020 0.550 0.650 rg
+BT /F2 7.5 Tf 446.00 488.00 Td ([VALIDATION]) Tj ET
+0.880 0.980 0.920 rg
+528.00 486.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 489.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 473.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 473.00 Td (Click 'Sign In' or 'Register' with empty email \('' \) and empty password \(''\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 462.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 462.00 Td (Client-side HTML5 / React form validation blocks submission with 'Please fill in this field') Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 452.00 Td (warning banner.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 441.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 441.00 Td (Submission halted immediately; error banner highlighted missing required credentials without) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 431.00 Td (making network call.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 420.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 420.00 Td (Reduces server load and provides immediate UX feedback when required fields are inadvertently) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 410.00 Td (skipped.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 249.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 352.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 352.00 m 576.00 352.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 357.00 Td (TC-AUTH-006) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 357.00 Td (|  Password Length Boundary Check \(< 6 Characters\)) Tj ET
+0.550 0.200 0.700 rg
+BT /F2 7.5 Tf 446.00 357.00 Td ([BOUNDARY]) Tj ET
+0.880 0.980 0.920 rg
+528.00 355.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 358.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 342.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 342.00 Td (Registration form input with 5-character password: 'Ab1!' \(minimum threshold is 6 characters\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 331.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 331.00 Td (HTTP 422 Unprocessable Entity or validation error 'Password must be at least 6 characters) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 321.00 Td (long.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 310.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 310.00 Td (Pydantic validator and UI schema validation rejected the 5-character string with minimum) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 300.00 Td (length alert.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 289.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 289.00 Td (Mitigates weak password vulnerabilities by enforcing minimum entropy standards across all) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 279.00 Td (local accounts.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 118.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 221.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 221.00 m 576.00 221.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 226.00 Td (TC-AUTH-007) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 226.00 Td (|  Protected Endpoint Access Without Authentication Token) Tj ET
+0.800 0.200 0.200 rg
+BT /F2 7.5 Tf 446.00 226.00 Td ([NEGATIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 224.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 227.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 211.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 211.00 Td (GET /api/incidents or POST /api/incidents with header Authorization: '' \(missing JWT bearer) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 201.00 Td (token\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 190.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 190.00 Td (HTTP 401 Unauthorized with detail 'Not authenticated' or 'Invalid authentication token.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 179.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 179.00 Td (HTTP 401 Unauthorized returned; FastAPI security dependency intercepted request prior to) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 169.00 Td (database query.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 158.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 158.00 Td (Guarantees zero-trust API protection across all REST endpoints against unauthenticated) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 148.00 Td (scrapers and probes.) Tj ET
+36.00 764.00 540.00 18 re f
+0.850 0.880 0.920 RG 0.75 w
+36.00 764.00 m 576.00 764.00 l S
+BT /F2 7.5 Tf 0.200 0.300 0.450 rg 40.00 770.00 Td (IncidentIQ -- Formal Software Test Case Documentation) Tj ET
+BT /F1 7.5 Tf 0.400 0.500 0.600 rg 426.00 770.00 Td (SRE Incident Investigation Platform) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 2 of 9) Tj ET
+
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 8658 >>
+stream
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 631.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 734.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 734.00 m 576.00 734.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 739.00 Td (TC-AUTH-008) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 739.00 Td (|  1-Click Demo Credential Autofill Button) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 739.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 737.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 740.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 724.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 724.00 Td (Click the '1-Click Autofill \(demo@incidentiq.local\)' button on the login screen) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 713.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 713.00 Td (Form fields populated with demo email and password; demo credentials ready for instant) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 703.00 Td (single-click login.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 692.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 692.00 Td (State variables updated immediately; inputs populated; clicking Sign In authenticated) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 682.00 Td (successfully.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 671.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 671.00 Td (Streamlines local product evaluations, hackathon demonstrations, and automated UI end-to-end) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 661.00 Td (testing.) Tj ET
+0.120 0.180 0.280 rg
+36.00 597.00 540.00 24.00 re f
+0.020 0.710 0.830 RG
+2.00 w
+36.00 597.00 m 576.00 597.00 l S
+1.000 1.000 1.000 rg
+BT /F2 9.5 Tf 46.00 605.00 Td (MODULE 2: INCIDENT CREATION & METADATA WIZARD) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.0 Tf 38.00 589.00 Td (Tests guided incident creation wizard \(Step 1\), input boundaries, service tagging, and start time toggles.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 454.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 557.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 557.00 m 576.00 557.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 562.00 Td (TC-INC-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 562.00 Td (|  Create Incident with Required Metadata) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 562.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 560.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 563.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 547.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 547.00 Td (Title: 'Checkout Gateway Outage', Severity: 'high', Affected Services: 'checkout-service,) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 537.00 Td (api-gateway') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 526.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 526.00 Td (Incident created with auto-assigned code \(e.g. INC-4819\), status 'open', stored in database,) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 516.00 Td (advances to Step 2.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 505.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 505.00 Td (HTTP 200 IncidentResponse returned with UUID id; wizard successfully transitioned to Step 2) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 495.00 Td (Evidence Guide.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 484.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 484.00 Td (Core entry-point for initiating an incident investigation workspace with full audit context.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 356.00 540.00 88.00 re B
+0.930 0.950 0.980 rg
+36.00 426.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 426.00 m 576.00 426.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 431.00 Td (TC-INC-002) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 431.00 Td (|  Create Incident with Blank Title Validation) Tj ET
+0.020 0.550 0.650 rg
+BT /F2 7.5 Tf 446.00 431.00 Td ([VALIDATION]) Tj ET
+0.880 0.980 0.920 rg
+528.00 429.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 432.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 416.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 416.00 Td (Submit Step 1 form with empty title: '') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 405.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 405.00 Td (Form submission halted with error: 'Incident title is required.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 394.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 394.00 Td (Form did not submit; red error banner displayed: 'Incident title is required.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 383.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 383.00 Td (Prevents anonymous / untitled incidents from cluttering the historical incident registry.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 247.00 540.00 99.00 re B
+0.930 0.950 0.980 rg
+36.00 328.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 328.00 m 576.00 328.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 333.00 Td (TC-INC-003) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 333.00 Td (|  Incident Title Maximum Length Boundary \(200 Chars\)) Tj ET
+0.550 0.200 0.700 rg
+BT /F2 7.5 Tf 446.00 333.00 Td ([BOUNDARY]) Tj ET
+0.880 0.980 0.920 rg
+528.00 331.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 334.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 318.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 318.00 Td (Submit title with exactly 200 characters vs 201 characters) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 307.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 307.00 Td (200 characters accepted; 201 characters rejected by Pydantic schema with max_length validation) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 297.00 Td (error.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 286.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 286.00 Td (200-char title saved successfully; 201-char title rejected with HTTP 422 validation error.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 275.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 275.00 Td (Protects UI layout headers and database storage columns from unbounded text overflows.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 127.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 219.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 219.00 m 576.00 219.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 224.00 Td (TC-INC-004) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 224.00 Td (|  Incident Severity Dropdown Selection) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 224.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 222.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 225.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 209.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 209.00 Td (Select severity levels: 'critical', 'high', 'medium', 'low' across 4 test creations) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 198.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 198.00 Td (Each selected severity stored correctly and visual badge reflects corresponding color \(Red,) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 188.00 Td (Amber, Blue, Gray\).) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 177.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 177.00 Td (Database recorded respective severity enum; UI rendered appropriate badge and severity) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 167.00 Td (weighting.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 156.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 156.00 Td (Ensures incident triage prioritization matches enterprise P1-P4 escalation matrix standards.) Tj ET
+36.00 764.00 540.00 18 re f
+0.850 0.880 0.920 RG 0.75 w
+36.00 764.00 m 576.00 764.00 l S
+BT /F2 7.5 Tf 0.200 0.300 0.450 rg 40.00 770.00 Td (IncidentIQ -- Formal Software Test Case Documentation) Tj ET
+BT /F1 7.5 Tf 0.400 0.500 0.600 rg 426.00 770.00 Td (SRE Incident Investigation Platform) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 3 of 9) Tj ET
+
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 9031 >>
+stream
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 642.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 734.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 734.00 m 576.00 734.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 739.00 Td (TC-INC-005) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 739.00 Td (|  Mark Incident Start Time as 'Unknown' Toggle) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 739.00 Td ([FUNCTIONAL]) Tj ET
+0.880 0.980 0.920 rg
+528.00 737.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 740.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 724.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 724.00 Td (Check 'Mark as Unknown' checkbox in Step 1) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 713.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 713.00 Td (Start time input field becomes disabled \(opacity-40\); start_time submitted as null/undefined.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 702.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 702.00 Td (Input field disabled; backend accepted null start_time and inferred onset dynamically from) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 692.00 Td (telemetry.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 681.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 681.00 Td (Real-world outages frequently start before on-call engineers receive alerts; dynamic inference) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 671.00 Td (is essential.) Tj ET
+0.120 0.180 0.280 rg
+36.00 608.00 540.00 24.00 re f
+0.020 0.710 0.830 RG
+2.00 w
+36.00 608.00 m 576.00 608.00 l S
+1.000 1.000 1.000 rg
+BT /F2 9.5 Tf 46.00 616.00 Td (MODULE 3: TELEMETRY INGESTION & FILE SECURITY) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.0 Tf 38.00 600.00 Td (Tests file upload handling, multi-format parsing \(.csv, .json, .log, .zip\), size limits, and security protections.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 476.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 568.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 568.00 m 576.00 568.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 573.00 Td (TC-UPL-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 573.00 Td (|  Ingest Application CSV Logs File) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 573.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 571.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 574.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 558.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 558.00 Td (Upload 'logs.csv' containing timestamp, service, level, message, trace_id \(4 records\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 547.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 547.00 Td (Parsed 4 records, detected category 'logs', normalized column mappings, stored in) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 537.00 Td (evidence_records.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 526.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 526.00 Td (4 records parsed with row numbers 2-5 preserved; category 'logs' identified; preview rows) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 516.00 Td (generated.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 505.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 505.00 Td (Verifies primary telemetry ingestion path for distributed microservice application logs.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 345.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 448.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 448.00 m 576.00 448.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 453.00 Td (TC-UPL-002) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 453.00 Td (|  Ingest Time-Series Metrics Array \(JSON\)) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 453.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 451.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 454.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 438.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 438.00 Td (Upload 'metrics.json' containing array of objects with timestamp, service, metric_name, value) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 427.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 427.00 Td (Parsed metric rows, detected category 'metrics', mapped metric_name and metric_value) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 417.00 Td (attributes.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 406.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 406.00 Td (All metric data points ingested; CPU saturation values converted to floating point; category) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 396.00 Td ('metrics' assigned.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 385.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 385.00 Td (Essential for detecting resource saturation \(CPU/memory\) and latency spikes during outage) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 375.00 Td (windows.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 214.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 317.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 317.00 m 576.00 317.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 322.00 Td (TC-UPL-003) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 322.00 Td (|  Ingest Raw Unstructured .log Text File) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 322.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 320.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 323.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 307.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 307.00 Td (Upload 'server.log' with standard regex format: '[2026-10-28T10:00:00Z] [ERROR] [checkout]) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 297.00 Td (Connection refused') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 286.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 286.00 Td (Regex pattern extracts timestamp, severity level, service name, and message body into) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 276.00 Td (structured records.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 265.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 265.00 Td (Log lines parsed into normalized records; line indices preserved as row_number citations.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 254.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 254.00 Td (Supports legacy servers, Docker daemon logs, and system services that output plain text logs) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 244.00 Td (without JSON formatting.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 83.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 186.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 186.00 m 576.00 186.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 191.00 Td (TC-UPL-004) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 191.00 Td (|  Ingest Multi-Modal ZIP Archive Bundle) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 191.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 189.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 192.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 176.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 176.00 Td (Upload 'incident_bundle.zip' containing deployments.csv, logs.csv, metrics.json, and) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 166.00 Td (topology.json) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 155.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 155.00 Td (ZIP decompressed in memory safely; each telemetry file parsed into its respective category.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 144.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 144.00 Td (All 4 files extracted and parsed; 15 total evidence records generated with zero disk write) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 134.00 Td (vulnerabilities.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 123.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 123.00 Td (Allows SREs to upload an entire observability snapshot bundle in a single drag-and-drop) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 113.00 Td (action.) Tj ET
+36.00 764.00 540.00 18 re f
+0.850 0.880 0.920 RG 0.75 w
+36.00 764.00 m 576.00 764.00 l S
+BT /F2 7.5 Tf 0.200 0.300 0.450 rg 40.00 770.00 Td (IncidentIQ -- Formal Software Test Case Documentation) Tj ET
+BT /F1 7.5 Tf 0.400 0.500 0.600 rg 426.00 770.00 Td (SRE Incident Investigation Platform) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 4 of 9) Tj ET
+
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 8649 >>
+stream
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 642.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 734.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 734.00 m 576.00 734.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 739.00 Td (TC-UPL-005) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 739.00 Td (|  Upload Unsupported File Format \(.exe / .pdf\)) Tj ET
+0.800 0.200 0.200 rg
+BT /F2 7.5 Tf 446.00 739.00 Td ([NEGATIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 737.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 740.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 724.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 724.00 Td (Attempt uploading 'malware.exe' or 'report.docx' through Step 3 upload zone) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 713.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 713.00 Td (HTTP 400 Bad Request with detail: 'Unsupported file format... Accepted formats: .csv, .json,) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 703.00 Td (.jsonl, .log, .zip') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 692.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 692.00 Td (HTTP 400 returned; rejected with clear user-facing error message; no database insertion.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 681.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 681.00 Td (Prevents unauthorized binary execution and server corruption by enforcing strict file) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 671.00 Td (extension whitelisting.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 544.00 540.00 88.00 re B
+0.930 0.950 0.980 rg
+36.00 614.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 614.00 m 576.00 614.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 619.00 Td (TC-UPL-006) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 619.00 Td (|  Maximum File Size Limit Boundary \(> 50 MB\)) Tj ET
+0.550 0.200 0.700 rg
+BT /F2 7.5 Tf 446.00 619.00 Td ([BOUNDARY]) Tj ET
+0.880 0.980 0.920 rg
+528.00 617.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 620.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 604.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 604.00 Td (Attempt uploading a telemetry file exceeding 50 MB \(52,428,800 bytes\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 593.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 593.00 Td (HTTP 400 Bad Request with detail 'File exceeds maximum file size limit \(50MB\).') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 582.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 582.00 Td (Upload rejected immediately by size validator; memory consumption protected.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 571.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 571.00 Td (Protects backend server memory against Denial-of-Service exhaustion from oversized dump files.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 424.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 516.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 516.00 m 576.00 516.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 521.00 Td (TC-UPL-007) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 521.00 Td (|  ZIP Archive Path Traversal Protection \(Directory Traversal\)) Tj ET
+0.750 0.350 0.050 rg
+BT /F2 7.5 Tf 446.00 521.00 Td ([SECURITY]) Tj ET
+0.880 0.980 0.920 rg
+528.00 519.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 522.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 506.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 506.00 Td (ZIP archive containing malicious entry '../../windows/system32/cmd.exe' or '../../etc/passwd') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 495.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 495.00 Td (Path traversal detected; malicious file blocked with warning 'Blocked insecure path in ZIP';) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 485.00 Td (remaining safe files extracted.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 474.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 474.00 Td (Insecure entry stripped; file rejected; warning logged in file summary warnings array.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 463.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 463.00 Td (Protects host file system from arbitrary file overwrite vulnerabilities \(Zip Slip) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 453.00 Td (vulnerability\).) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 315.00 540.00 99.00 re B
+0.930 0.950 0.980 rg
+36.00 396.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 396.00 m 576.00 396.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 401.00 Td (TC-UPL-008) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 401.00 Td (|  ZIP Decompression Bomb Protection \(High Compression Ratio\)) Tj ET
+0.750 0.350 0.050 rg
+BT /F2 7.5 Tf 446.00 401.00 Td ([SECURITY]) Tj ET
+0.880 0.980 0.920 rg
+528.00 399.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 402.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 386.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 386.00 Td (ZIP archive with 1KB compressed file expanding to > 100MB \(compression ratio > 100:1\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 375.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 375.00 Td (Decompression safety limits trigger; extraction halted; warning 'Suspicious compression ratio') Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 365.00 Td (generated.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 354.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 354.00 Td (Decompressor aborted extraction of malicious file; process protected from CPU/RAM lockup.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 343.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 343.00 Td (Safeguards cloud and local infrastructure against classic ZIP bomb denial-of-service exploits.) Tj ET
+0.120 0.180 0.280 rg
+36.00 281.00 540.00 24.00 re f
+0.020 0.710 0.830 RG
+2.00 w
+36.00 281.00 m 576.00 281.00 l S
+1.000 1.000 1.000 rg
+BT /F2 9.5 Tf 46.00 289.00 Td (MODULE 4: SCHEMA NORMALIZATION & EVIDENCE PROVENANCE) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.0 Tf 38.00 273.00 Td (Tests schema detection, column mapping, 1-based row citations, and timestamp harmonization.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 149.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 241.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 241.00 m 576.00 241.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 246.00 Td (TC-SCH-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 246.00 Td (|  Automatic Column Mapping Alias Detection) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 246.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 244.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 247.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 231.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 231.00 Td (CSV with headers: ['@timestamp', 'app', 'log_level', 'msg', 'traceid']) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 220.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 220.00 Td (Mapped automatically: timestamp -> @timestamp, service -> app, severity -> log_level, message) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 210.00 Td (-> msg, trace_id -> traceid.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 199.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 199.00 Td (Column mappings detected correctly in column_mappings dictionary; normalized schema populated.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 188.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 188.00 Td (Removes manual schema configuration burden when ingesting data from heterogeneous) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 178.00 Td (observability vendors.) Tj ET
+36.00 764.00 540.00 18 re f
+0.850 0.880 0.920 RG 0.75 w
+36.00 764.00 m 576.00 764.00 l S
+BT /F2 7.5 Tf 0.200 0.300 0.450 rg 40.00 770.00 Td (IncidentIQ -- Formal Software Test Case Documentation) Tj ET
+BT /F1 7.5 Tf 0.400 0.500 0.600 rg 426.00 770.00 Td (SRE Incident Investigation Platform) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 5 of 9) Tj ET
+
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 8827 >>
+stream
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 631.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 734.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 734.00 m 576.00 734.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 739.00 Td (TC-SCH-002) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 739.00 Td (|  Exact 1-Based Row Number Provenance Preservation) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 739.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 737.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 740.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 724.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 724.00 Td (CSV file with header at row 1, followed by 3 data records) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 713.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 713.00 Td (Data rows assigned __row_number 2, 3, and 4 \(header is row 1\) and stored in) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 703.00 Td (evidence_records.row_number.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 692.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 692.00 Td (Row numbers 2, 3, 4 preserved accurately; citation links in UI click through to exact original) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 682.00 Td (row.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 671.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 671.00 Td (Guarantees 100% auditability and compliance: every hypothesis citation links directly to a) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 661.00 Td (verifiable line.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 533.00 540.00 88.00 re B
+0.930 0.950 0.980 rg
+36.00 603.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 603.00 m 576.00 603.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 608.00 Td (TC-SCH-003) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 608.00 Td (|  Filename Sanitization Against Path Manipulation) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 608.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 606.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 609.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 593.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 593.00 Td (Filename: '..\\..\\logs\\incident:production.csv') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 582.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 582.00 Td (Sanitized to 'incident_production.csv'; path components stripped.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 571.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 571.00 Td (sanitize_filename\(\) returned 'incident_production.csv'; clean name used in DB and UI displays.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 560.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 560.00 Td (Prevents malformed filenames from corrupting HTTP response headers or database lookup keys.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 413.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 505.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 505.00 m 576.00 505.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 510.00 Td (TC-SCH-004) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 510.00 Td (|  Multi-Format Timestamp Harmonization to UTC ISO) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 510.00 Td ([FUNCTIONAL]) Tj ET
+0.880 0.980 0.920 rg
+528.00 508.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 511.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 495.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 495.00 Td (Timestamps: '2026-10-28 14:15:00', '1730124900' \(Unix epoch\), '2026-10-28T14:15:00.000Z') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 484.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 484.00 Td (All formats normalized to standardized ISO-8601 string: '2026-10-28T14:15:00+00:00'.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 473.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 473.00 Td (parse_iso_timestamp\(\) converted all 3 formats to identical UTC ISO timestamps without timezone) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 463.00 Td (drift.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 452.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 452.00 Td (Accurate cross-service correlation requires a unified timeline regardless of origin server) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 442.00 Td (clock formats.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 282.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 385.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 385.00 m 576.00 385.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 390.00 Td (TC-SCH-005) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 390.00 Td (|  Corrupt / Non-UTF8 Text Encoding Fallback) Tj ET
+0.020 0.550 0.650 rg
+BT /F2 7.5 Tf 446.00 390.00 Td ([VALIDATION]) Tj ET
+0.880 0.980 0.920 rg
+528.00 388.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 391.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 375.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 375.00 Td (Upload CSV file containing corrupted high-ASCII byte sequences \(e.g. ??\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 364.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 364.00 Td (Parser decodes with errors='replace', substituting ? without throwing fatal) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 354.00 Td (UnicodeDecodeError.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 343.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 343.00 Td (File parsed successfully; invalid characters replaced cleanly; remaining text extracted) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 333.00 Td (intact.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 322.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 322.00 Td (Prevents investigation pipeline failure when processing garbled log segments from crashing) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 312.00 Td (hardware.) Tj ET
+0.120 0.180 0.280 rg
+36.00 248.00 540.00 24.00 re f
+0.020 0.710 0.830 RG
+2.00 w
+36.00 248.00 m 576.00 248.00 l S
+1.000 1.000 1.000 rg
+BT /F2 9.5 Tf 46.00 256.00 Td (MODULE 5: PRE-FLIGHT VALIDATION & TELEMETRY COVERAGE) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.0 Tf 38.00 240.00 Td (Tests Step 5 data health checks, service discovery, gap analysis, and missing data warnings.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 105.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 208.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 208.00 m 576.00 208.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 213.00 Td (TC-VAL-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 213.00 Td (|  Pre-Flight Validation Metrics Calculation) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 213.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 211.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 214.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 198.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 198.00 Td (GET /api/incidents/{id}/validation after uploading logs.csv \(4 rows\) and metrics.json \(5 rows\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 187.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 187.00 Td (total_files=2, total_records=9, services_discovered=['api-gateway', 'checkout-service',) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 177.00 Td ('database'], can_analyze=True.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 166.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 166.00 Td (Validation summary calculated accurately; Step 5 summary metric cards displayed values) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 156.00 Td (correctly.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 145.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 145.00 Td (Gives investigators instant confirmation of ingested dataset scope prior to running the RCA) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 135.00 Td (algorithms.) Tj ET
+36.00 764.00 540.00 18 re f
+0.850 0.880 0.920 RG 0.75 w
+36.00 764.00 m 576.00 764.00 l S
+BT /F2 7.5 Tf 0.200 0.300 0.450 rg 40.00 770.00 Td (IncidentIQ -- Formal Software Test Case Documentation) Tj ET
+BT /F1 7.5 Tf 0.400 0.500 0.600 rg 426.00 770.00 Td (SRE Incident Investigation Platform) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 6 of 9) Tj ET
+
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 9166 >>
+stream
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 631.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 734.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 734.00 m 576.00 734.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 739.00 Td (TC-VAL-002) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 739.00 Td (|  Missing Observability Telemetry Category Warnings) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 739.00 Td ([FUNCTIONAL]) Tj ET
+0.880 0.980 0.920 rg
+528.00 737.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 740.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 724.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 724.00 Td (Upload incident evidence containing only logs.csv \(missing traces and metrics\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 713.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 713.00 Td (missing_categories=['traces', 'metrics', 'deployments', 'dependencies'], limitation_notice) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 703.00 Td (displayed.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 692.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 692.00 Td (Notice displayed: 'Missing evidence categories: traces, metrics, deployments... Analysis can) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 682.00 Td (proceed with partial evidence.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 671.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 671.00 Td (Ensures engineers understand telemetry blind spots and do not over-rely on partial diagnostic) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 661.00 Td (signals.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 522.00 540.00 99.00 re B
+0.930 0.950 0.980 rg
+36.00 603.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 603.00 m 576.00 603.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 608.00 Td (TC-VAL-003) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 608.00 Td (|  Prevent RCA Trigger on Empty Evidence Dataset) Tj ET
+0.020 0.550 0.650 rg
+BT /F2 7.5 Tf 446.00 608.00 Td ([VALIDATION]) Tj ET
+0.880 0.980 0.920 rg
+528.00 606.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 609.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 593.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 593.00 Td (POST /api/incidents/{id}/analyze on an incident with 0 uploaded records) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 582.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 582.00 Td (HTTP 400 Bad Request with detail: 'Cannot analyze incident without evidence. Please upload) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 572.00 Td (logs, metrics, or traces first.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 561.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 561.00 Td (HTTP 400 returned; UI disabled analyze trigger button; empty analysis prevented.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 550.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 550.00 Td (Guards engine from executing mathematical correlation routines over null matrices.) Tj ET
+0.120 0.180 0.280 rg
+36.00 488.00 540.00 24.00 re f
+0.020 0.710 0.830 RG
+2.00 w
+36.00 488.00 m 576.00 488.00 l S
+1.000 1.000 1.000 rg
+BT /F2 9.5 Tf 46.00 496.00 Td (MODULE 6: EXPLAINABLE ROOT CAUSE ANALYSIS ENGINE) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.0 Tf 38.00 480.00 Td (Tests heuristic ranking, contradiction detection, formula breakdowns, and engine abstention safeguards.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 334.00 540.00 132.00 re B
+0.930 0.950 0.980 rg
+36.00 448.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 448.00 m 576.00 448.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 453.00 Td (TC-RCA-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 453.00 Td (|  Deployment Regression Root Cause Identification) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 453.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 451.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 454.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 438.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 438.00 Td (Scenario A: checkout-service v2.4.1 deployment followed by 504 timeouts and database lock) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 428.00 Td (errors) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 417.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 417.00 Td (Rank 1 hypothesis: 'Recent deployment of checkout-service \(v2.4.1\) introduced a regression') Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 407.00 Td (\(Score > 0.70\).) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 396.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 396.00 Td (Rank 1 assigned with score 0.71; exact citations linked to deployments.csv row 2 and logs.csv) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 386.00 Td (row 3.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 375.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 375.00 Td (Solves the primary project theme: identifying that an outage was caused by a specific code) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 365.00 Td (change.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 203.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 306.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 306.00 m 576.00 306.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 311.00 Td (TC-RCA-002) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 311.00 Td (|  Database Connection Pool Saturation & Deadlock Ranking) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 311.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 309.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 312.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 296.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 296.00 Td (Scenario 2: billing-service HikariCP connection pool exhausted, active connections=100/100,) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 286.00 Td (lock deadlock) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 275.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 275.00 Td (Rank 1: 'Database connection pool exhaustion and client acquisition timeout' with high) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 265.00 Td (confidence tier.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 254.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 254.00 Td (Rank 1 assigned with score 0.74; supporting citations included connection saturation metrics) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 244.00 Td (and error logs.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 233.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 233.00 Td (Validates ability to diagnose backend database bottlenecks and resource exhaustion failures.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 72.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 175.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 175.00 m 576.00 175.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 180.00 Td (TC-RCA-003) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 180.00 Td (|  Downstream 3rd-Party Latency Cascade Discovery) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 180.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 178.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 181.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 165.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 165.00 Td (Scenario 3: stripe-external-api 10s latency causing payment-processor circuit breaker and edge) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 155.00 Td (504s) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 144.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 144.00 Td (Rank 1: 'Downstream dependency latency degradation causing upstream timeout cascade'.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 133.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 133.00 Td (Rank 1 attributed correctly; traces mapped client duration of 10,250ms directly to partner) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 123.00 Td (API.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 112.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 112.00 Td (Isolates external vendor outages from internal bugs, preventing engineers from troubleshooting) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 102.00 Td (the wrong systems.) Tj ET
+36.00 764.00 540.00 18 re f
+0.850 0.880 0.920 RG 0.75 w
+36.00 764.00 m 576.00 764.00 l S
+BT /F2 7.5 Tf 0.200 0.300 0.450 rg 40.00 770.00 Td (IncidentIQ -- Formal Software Test Case Documentation) Tj ET
+BT /F1 7.5 Tf 0.400 0.500 0.600 rg 426.00 770.00 Td (SRE Incident Investigation Platform) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 7 of 9) Tj ET
+
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 9127 >>
+stream
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 631.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 734.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 734.00 m 576.00 734.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 739.00 Td (TC-RCA-004) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 739.00 Td (|  Memory Saturation & Kernel OOM-Killer Attribution) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 739.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 737.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 740.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 724.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 724.00 Td (Scenario 4: search-indexer memory climbing to 98.6%, GC pause=5400ms, OOM killer event logged) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 713.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 713.00 Td (Rank 1: 'System resource saturation \(CPU/Memory exhaustion\) causing throttling and request) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 703.00 Td (drops'.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 692.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 692.00 Td (Rank 1 attributed with score 0.71; memory metrics and kernel dmesg citations highlighted in) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 682.00 Td (analysis view.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 671.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 671.00 Td (Pinpoints memory leaks and process termination events before on-call engineers initiate blind) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 661.00 Td (restarts.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 500.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 603.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 603.00 m 576.00 603.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 608.00 Td (TC-RCA-005) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 608.00 Td (|  Engine Abstention on Sparse Telemetry \(Scenario B\)) Tj ET
+0.750 0.350 0.050 rg
+BT /F2 7.5 Tf 446.00 608.00 Td ([SAFEGUARD]) Tj ET
+0.880 0.980 0.920 rg
+528.00 606.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 609.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 593.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 593.00 Td (Scenario B: upload healthy baseline logs and metrics \(HTTP 200, CPU=14%, 0 error signals\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 582.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 582.00 Td (Engine explicitly abstains \(Score=0.10\); outputs 'Insufficient evidence to rank a root cause) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 572.00 Td (reliably' with checklist.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 561.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 561.00 Td (is_abstention=True returned; abstention card displayed in UI with recommended missing) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 551.00 Td (telemetry checklist.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 540.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 540.00 Td (Critical AI safety feature: platform refuses to invent false certainty when telemetry is) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 530.00 Td (inadequate.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 380.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 472.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 472.00 m 576.00 472.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 477.00 Td (TC-RCA-006) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 477.00 Td (|  Contradiction & Falsification Detection) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 477.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 475.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 478.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 462.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 462.00 Td (Scenario A dataset where database CPU was low \(15%\) while connection pool errors occurred) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 451.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 451.00 Td (Engine cites database CPU as contradicting evidence, clarifying exhaustion was client-bounded.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 440.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 440.00 Td (Contradicting evidence section populated: 'Database CPU remained low \(15.0%\), suggesting) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 430.00 Td (client-pool bounding.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 419.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 419.00 Td (Ensures engineers review counter-signals and falsify incorrect assumptions during) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 409.00 Td (post-mortems.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 260.00 540.00 110.00 re B
+0.930 0.950 0.980 rg
+36.00 352.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 352.00 m 576.00 352.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 357.00 Td (TC-RCA-007) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 357.00 Td (|  Bounded Heuristic Scoring Formula \(0.05 to 0.96\)) Tj ET
+0.550 0.200 0.700 rg
+BT /F2 7.5 Tf 446.00 357.00 Td ([BOUNDARY]) Tj ET
+0.880 0.980 0.920 rg
+528.00 355.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 358.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 342.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 342.00 Td (Evaluate compute_heuristic_score\(\) with extreme maximum and minimum input weights) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 331.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 331.00 Td (Calculated score strictly clamped between 0.05 and 0.96; formula breakdown string generated.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 320.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 320.00 Td (Extreme high inputs returned score 0.96; extreme low inputs returned score 0.05; clamp) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 310.00 Td (verified.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 299.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 299.00 Td (Mathematical boundary guarantee prevents ungrounded 0% or 100% certainty over probabilistic) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 289.00 Td (telemetry.) Tj ET
+0.120 0.180 0.280 rg
+36.00 226.00 540.00 24.00 re f
+0.020 0.710 0.830 RG
+2.00 w
+36.00 226.00 m 576.00 226.00 l S
+1.000 1.000 1.000 rg
+BT /F2 9.5 Tf 46.00 234.00 Td (MODULE 7: VISUALIZATION, EXPORT & MULTI-TENANCY) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 8.0 Tf 38.00 218.00 Td (Tests UI visualizations \(timeline, topology, metrics\), audit report exports, and cross-user data isolation.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 83.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 186.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 186.00 m 576.00 186.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 191.00 Td (TC-UI-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 191.00 Td (|  Chronological Incident Timeline Rendering) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 191.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 189.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 192.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 176.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 176.00 Td (Navigate to 'Incident Timeline' tab after running analysis on Scenario A) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 165.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 165.00 Td (Interactive event sequence rendered in strict chronological order with severity color tags) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 155.00 Td (\(Deployment, Error, Timeout\).) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 144.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 144.00 Td (Timeline events rendered chronologically; timestamps ordered correctly; click opens evidence) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 134.00 Td (provenance modal.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 123.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 123.00 Td (Visual chronological reconstruction helps on-call teams comprehend the exact sequence of) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 113.00 Td (cascading failures.) Tj ET
+36.00 764.00 540.00 18 re f
+0.850 0.880 0.920 RG 0.75 w
+36.00 764.00 m 576.00 764.00 l S
+BT /F2 7.5 Tf 0.200 0.300 0.450 rg 40.00 770.00 Td (IncidentIQ -- Formal Software Test Case Documentation) Tj ET
+BT /F1 7.5 Tf 0.400 0.500 0.600 rg 426.00 770.00 Td (SRE Incident Investigation Platform) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 8 of 9) Tj ET
+
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R
+   /MediaBox [0 0 612 792]
+   /Resources << /Font << /F1 21 0 R /F2 22 0 R /F3 23 0 R /F4 24 0 R >> >>
+   /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 5513 >>
+stream
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 631.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 734.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 734.00 m 576.00 734.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 739.00 Td (TC-UI-002) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 739.00 Td (|  Service Dependency Topology Graph Rendering) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 739.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 737.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 740.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 724.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 724.00 Td (Navigate to 'Service Topology' tab after uploading service_dependencies.json) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 713.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 713.00 Td (Directional graph renders nodes with computed health status \(failing nodes highlighted in) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 703.00 Td (red\).) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 692.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 692.00 Td (Graph rendered correctly; checkout-service node flagged as degraded; upstream/downstream links) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 682.00 Td (mapped.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 671.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 671.00 Td (Visualizes blast radius to indicate which customer-facing services are impacted by downstream) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 661.00 Td (failures.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 500.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 603.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 603.00 m 576.00 603.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 608.00 Td (TC-EXP-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 608.00 Td (|  Post-Incident Audit Report Generation \(JSON & CSV\)) Tj ET
+0.050 0.350 0.750 rg
+BT /F2 7.5 Tf 446.00 608.00 Td ([POSITIVE]) Tj ET
+0.880 0.980 0.920 rg
+528.00 606.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 609.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 593.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 593.00 Td (Click 'Export JSON' and 'Export CSV' buttons on Investigation Result page) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 582.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 582.00 Td (Browser initiates download of audit-grade JSON file and formatted CSV table containing full) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 572.00 Td (citations and scoring.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 561.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 561.00 Td (Files downloaded with Content-Disposition headers; JSON verified against schema; CSV formatted) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 551.00 Td (with RFC 4180.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 540.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 540.00 Td (Provides SRE teams with portable post-mortem artifacts for Jira, Confluence, and compliance) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 530.00 Td (audits.) Tj ET
+0.985 0.990 1.000 rg
+0.820 0.860 0.920 RG
+0.75 w
+36.00 369.00 540.00 121.00 re B
+0.930 0.950 0.980 rg
+36.00 472.00 540.00 18.00 re f
+0.820 0.860 0.920 RG
+36.00 472.00 m 576.00 472.00 l S
+0.080 0.350 0.600 rg
+BT /F2 8.5 Tf 44.00 477.00 Td (TC-MGMT-001) Tj ET
+0.150 0.200 0.250 rg
+BT /F2 8.5 Tf 121.00 477.00 Td (|  Multi-Tenant Data Isolation \(Cross-User Incident Access Block\)) Tj ET
+0.750 0.350 0.050 rg
+BT /F2 7.5 Tf 446.00 477.00 Td ([SECURITY]) Tj ET
+0.880 0.980 0.920 rg
+528.00 475.00 42.00 12.00 re f
+0.050 0.550 0.250 rg
+BT /F2 8.0 Tf 532.00 478.00 Td (PASS) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 462.00 Td (Test Input:) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 462.00 Td (User 2 attempts to fetch, update, or delete an incident owned by User 1 \(GET) Tj ET
+0.100 0.250 0.400 rg
+BT /F4 7.5 Tf 126.00 452.00 Td (/api/incidents/{user1_id}\)) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 441.00 Td (Expected:) Tj ET
+0.100 0.350 0.150 rg
+BT /F1 7.5 Tf 126.00 441.00 Td (HTTP 403 Forbidden with detail 'Access denied. You do not own this incident.') Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 430.00 Td (Actual:) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 430.00 Td (HTTP 403 Forbidden returned; database lookup verified user_id matching; cross-tenant leak) Tj ET
+0.080 0.450 0.200 rg
+BT /F1 7.5 Tf 126.00 420.00 Td (prevented.) Tj ET
+0.300 0.350 0.450 rg
+BT /F2 7.5 Tf 46.00 409.00 Td (Justification:) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 409.00 Td (Enforces strict organizational multi-tenancy and data privacy across distinct engineering) Tj ET
+0.350 0.400 0.450 rg
+BT /F3 7.5 Tf 126.00 399.00 Td (teams.) Tj ET
+36.00 764.00 540.00 18 re f
+0.850 0.880 0.920 RG 0.75 w
+36.00 764.00 m 576.00 764.00 l S
+BT /F2 7.5 Tf 0.200 0.300 0.450 rg 40.00 770.00 Td (IncidentIQ -- Formal Software Test Case Documentation) Tj ET
+BT /F1 7.5 Tf 0.400 0.500 0.600 rg 426.00 770.00 Td (SRE Incident Investigation Platform) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+36.00 28 m 576.00 28 l S
+BT /F1 7.0 Tf 0.450 0.500 0.550 rg 36.00 17 Td (IncidentIQ Enterprise Testing Artifact | Quality Assurance & Reliability Specification) Tj ET
+BT /F2 7.5 Tf 0.200 0.350 0.550 rg 521.00 17 Td (Page 9 of 9) Tj ET
+
+endstream
+endobj
+21 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+22 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+23 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+24 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 25
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000174 00000 n 
+0000000343 00000 n 
+0000011215 00000 n 
+0000011384 00000 n 
+0000020231 00000 n 
+0000020400 00000 n 
+0000029110 00000 n 
+0000029280 00000 n 
+0000038364 00000 n 
+0000038535 00000 n 
+0000047237 00000 n 
+0000047408 00000 n 
+0000056288 00000 n 
+0000056459 00000 n 
+0000065678 00000 n 
+0000065849 00000 n 
+0000075029 00000 n 
+0000075200 00000 n 
+0000080766 00000 n 
+0000080837 00000 n 
+0000080913 00000 n 
+0000080992 00000 n 
+trailer
+<< /Size 25 /Root 1 0 R >>
+startxref
+81061
+%%EOF

@@ -1,0 +1,7 @@
+{
+  "_comment": "SYNTHETIC DEMO GRAPH - Scenario B",
+  "services": ["edge-proxy", "internal-app"],
+  "dependencies": [
+    {"source": "edge-proxy", "target": "internal-app"}
+  ]
+}

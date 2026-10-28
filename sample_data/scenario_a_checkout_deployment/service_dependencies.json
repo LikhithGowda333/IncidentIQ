@@ -1,0 +1,18 @@
+{
+  "_comment": "SYNTHETIC DEMONSTRATION SERVICE GRAPH - IncidentIQ Scenario A",
+  "services": [
+    "frontend-web",
+    "api-gateway",
+    "checkout-service",
+    "payment-gateway",
+    "inventory-service",
+    "database"
+  ],
+  "dependencies": [
+    {"source": "frontend-web", "target": "api-gateway", "relationship": "http"},
+    {"source": "api-gateway", "target": "checkout-service", "relationship": "http"},
+    {"source": "checkout-service", "target": "payment-gateway", "relationship": "http"},
+    {"source": "checkout-service", "target": "inventory-service", "relationship": "grpc"},
+    {"source": "checkout-service", "target": "database", "relationship": "tcp/postgres"}
+  ]
+}
